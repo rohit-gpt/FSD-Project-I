@@ -1,0 +1,80 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+	font-family: "Satisfy", "Cusrive";
+	color: blue;
+	font-size: 3em;
+	padding-left: 5%;
+}
+
+#subheading {
+	font-family: "Marck Script", "Cursive";
+	padding-left: 5%;
+}
+
+.auth button {
+	background-color: blue;
+	color: white;
+	font-size: 1em;
+	margin-top: 3%;
+	padding: 10px;
+	border-bottom: 2px solid grey;
+	border-right: 2px solid grey;
+	cursor: pointer;
+	outline: none;
+}
+
+#exampleModalCenterTitle {
+	width: 100%;
+	font-weight: bold;
+	font-size: 2.2em;
+}
+
+.modal-content {
+	padding: 10px;
+	font-family: "Abel";
+}
+
+.modal-header {
+	border-bottom: 1px solid black;
+}
+
+.ip {
+	width: 100%;
+	background-color: #F0f0f0;
+	border: none;
+	padding: 10px;
+	margin-bottom: 6%;
+}
+
+label {
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#modalbtn {
+	background-color: #00cc66;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	font-size: 1.1em;
+}
+
+#createaccount {
+	font-weight: 900;
+	text-align: center;
+	margin-top: 6%;
+	font-size: 1.2em;
+}
+
+#createaccount span {
+	color: blue;
+	cursor: pointer;
+}

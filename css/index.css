@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+.postButtons { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65%;
+}
+
+.postButtons button, .postButtons a {
+	color: black;
+	background-color: #e1ad01;
+	font-size: 1.3em;
+	padding: 0.7%;
+	margin-left: 1%;
+	outline: none;
+	cursor: pointer;
+	border-bottom: 2px solid grey;
+	border-right: 2px solid grey;
+}
+
+.postButtons a:hover {
+	text-decoration: none;
+}
