@@ -17,3 +17,52 @@
 }
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+h3 {
+	font-weight: 900;
+}
+
+.editsave {
+	font-family: Abel;
+	font-size: 0.5em;
+	background-color: #fc0377;
+	color: white;
+	padding: 5px 0;
+	width: 7.5%;
+	border: none;
+	font-weight: 900;
+	box-shadow: 0px 0px 9px #fc0377;
+	outline: none;
+}
+
+#blogBody {
+	text-align: justify;
+}
+
+#likeline {
+	font-family: Abel;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+#comments {
+	margin-top: 3%;
+	font-family: Times New Roman;
+}
+
+#comments p {
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+#allcomments {
+	width: 60%;
+	padding: 10px;
+	background-color: lightgrey;
+	margin-bottom: 10%;
+}
+
+#allcomments div {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
