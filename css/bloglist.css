@@ -1,7 +1,6 @@
 .post {
     position: relative;
     width: 90%;
-    height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
     margin: 10px 10px 10px 20px;
@@ -25,7 +24,13 @@
         background-color: #E8E8E8;
         color: #000000;
         border-radius: 0 15px 15px 0;
-        padding: 0 20px;      
+        padding-top: 20px; 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        padding-bottom: none;
+        text-overflow: ellipsis;
+        height: 100%;
+        overflow: hidden;
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -53,7 +58,7 @@ body {
     width: 100%;
     position: relative;
     margin: 0 !important;
-    color: #fff;
+    color: black;
     background-color: orange;
     background-size: 2000% 2000%;
 }
@@ -61,4 +66,31 @@ body {
     height: 100%;
     width: 100%;
 
+}
+
+i, h2 {
+    float: right;
+    cursor: pointer;
+    color: black;
+}
+
+h5 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#yesbtn {
+    width: 40%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+#nobtn {
+    width: 40%;
+    background-color: lightgreen;
+    color: white;
+    padding: 5px;
+    outline: none;
 }

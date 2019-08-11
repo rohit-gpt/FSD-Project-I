@@ -16,6 +16,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 #subheading {
 	font-family: "Marck Script", "Cursive";
 	padding-left: 5%;
+	color: white;
 }
 
 .auth button {
